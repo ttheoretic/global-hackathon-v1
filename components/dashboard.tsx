@@ -8,6 +8,7 @@ import { FeedbackTable } from "@/components/feedback-table"
 import { SourceInsights } from "@/components/source-insights"
 import { AiSearchBox } from "@/components/ai-search-box"
 import { MessageSquare } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 export function Dashboard() {
   const [filters, setFilters] = useState({

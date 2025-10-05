@@ -1,0 +1,8 @@
+-- Temporär RLS für Demo-Zwecke deaktivieren
+-- VORSICHT: Nur für Development/Demo verwenden!
+
+ALTER TABLE profiles DISABLE ROW LEVEL SECURITY;
+ALTER TABLE feedback_sources DISABLE ROW LEVEL SECURITY;
+ALTER TABLE feedback_items DISABLE ROW LEVEL SECURITY;
+ALTER TABLE ai_analyses DISABLE ROW LEVEL SECURITY;
+ALTER TABLE subscriptions DISABLE ROW LEVEL SECURITY;

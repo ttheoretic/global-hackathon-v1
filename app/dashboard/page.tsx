@@ -5,11 +5,10 @@ import { OnboardingFlow } from "@/components/onboarding-flow"
 import { Dashboard } from "@/components/dashboard"
 
 export default function DashboardPage() {
-  const [isOnboarded, setIsOnboarded] = useState(false)
-
+  // Skip onboarding for demo and show dashboard directly
   return (
     <main className="min-h-screen">
-      {!isOnboarded ? <OnboardingFlow onComplete={() => setIsOnboarded(true)} /> : <Dashboard />}
+      <Dashboard />
     </main>
   )
 }
